@@ -8,16 +8,15 @@ import * as _ from "lodash";
 })
 
 export class UserComponent{
-    public name:string;
-    public summonerName: string
-    public arr : any[];
+    private name:string;
+    private summonerName: string
+    private arr : any[];
 
     constructor(){
         this.name = "David";
         this.summonerName = "hi im podolsk";
         this.arr = [1,5,10,15,20];
         
-
         this.repetir();
     }
 
